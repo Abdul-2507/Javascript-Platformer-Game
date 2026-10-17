@@ -49,23 +49,23 @@ let enemySide = "right";
 let bossDamage = false;
 
 function preload() {
-    cloud2 = loadImage('cloud2.png');
-    cloud3 = loadImage('cloud3.png');
-    heart = loadImage('heart.png');
-    warning = loadImage('warning.png');
-    asteroid = loadImage('asteroid.png');
-    eyesRight = loadImage('eyesRight.png');
-    eyesLeft = loadImage('eyesLeft.png');
-    mouthAngry = loadImage('mouthAngry.png');
-    mouthHurt = loadImage('mouthHurt.png');
-    sword = loadImage('sword.png');
+    cloud2 = loadImage('images/cloud2.png');
+    cloud3 = loadImage('images/cloud3.png');
+    heart = loadImage('images/heart.png');
+    warning = loadImage('images/warning.png');
+    asteroid = loadImage('images/asteroid.png');
+    eyesRight = loadImage('images/eyesRight.png');
+    eyesLeft = loadImage('images/eyesLeft.png');
+    mouthAngry = loadImage('images/mouthAngry.png');
+    mouthHurt = loadImage('images/mouthHurt.png');
+    sword = loadImage('images/sword.png');
 
-    forestMusic = loadSound('forestmusic.mp3');
-    caveMusic = loadSound('cavemusic.mp3');
-    volcanoMusic = loadSound('volcanomusic.mp3');
-    bossMusic = loadSound('bossmusic.mp3');
-    gun = loadSound('gun.mp3');
-    victory = loadSound('victory.mp3');
+    forestMusic = loadSound('sounds/forestmusic.mp3');
+    caveMusic = loadSound('sounds/cavemusic.mp3');
+    volcanoMusic = loadSound('sounds/volcanomusic.mp3');
+    bossMusic = loadSound('sounds/bossmusic.mp3');
+    gun = loadSound('sounds/gun.mp3');
+    victory = loadSound('sounds/victory.mp3');
 } //end preload
 
 function setup() {
